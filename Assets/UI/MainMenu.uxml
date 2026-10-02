@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/MainMeu.uss?fileID=7433441132597879392&amp;guid=5e4f81a5628a2b84eaaedaa6a247345a&amp;type=3#MainMeu"/>
+    <ui:VisualElement name="Root" picking-mode="Ignore" style="flex-grow: 1;">
+        <ui:VisualElement name="MainMenuPanel" style="flex-grow: 1; background-color: rgba(77, 77, 77, 0.72); -unity-material: url(&quot;&quot;);">
+            <ui:Label text="League of Lucas" name="GameNameLabel" style="font-size: 132px; -unity-text-align: middle-center; margin-top: 12%; -unity-font-style: bold; margin-bottom: 22px;"/>
+            <ui:Button text="Start" name="StartBtn" class="button"/>
+            <ui:Button text="Quit" name="QuitBtn" class="button" style="flex-grow: 0;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

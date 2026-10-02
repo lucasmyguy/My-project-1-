@@ -1,0 +1,18 @@
+:root {
+}
+
+#Root > #ProgressBar > #unity-progress-bar > .unity-progress-bar__background {
+    background-color: rgb(255, 255, 255);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#Root > #HealthBar > #unity-progress-bar > .unity-progress-bar__background > .unity-progress-bar__progress {
+    background-color: rgb(255, 0, 0);
+}

@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/PlayerHUD.uss?fileID=7433441132597879392&amp;guid=cf18ca7ba635f44419cf12228eaf985b&amp;type=3#PlayerHUD"/>
+    <ui:VisualElement picking-mode="Ignore" name="Root" style="flex-grow: 1;">
+        <ui:VisualElement name="HudPanel" style="flex-grow: 1; bottom: 0; width: 50%; left: 50%; height: 10%; position: absolute; translate: -50% 0; background-color: rgba(63, 63, 63, 0.31);">
+            <ui:ProgressBar value="22" title="my-progress" name="HpBar" high-value="400"/>
+            <ui:Label text="Right Click to Move/Attack | WASD or place mouse outside of the game screen to move camera" name="Instructions" style="-unity-text-align: middle-center; margin-top: 10px; font-size: 20px; color: rgb(255, 255, 255);"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

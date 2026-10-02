@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Root" picking-mode="Ignore" style="flex-grow: 1;">
+        <ui:VisualElement name="ResultPanel" style="flex-grow: 1; left: 50%; bottom: 50%; translate: -50% 50%; width: 50%; height: 30%; position: absolute; background-color: rgba(89, 89, 89, 0.55);">
+            <ui:Label text="Victory" name="ResultLabel" style="font-size: 84px; -unity-text-align: middle-center; margin-top: 36px;"/>
+            <ui:VisualElement name="Bottom" style="flex-grow: 1; flex-direction: row; margin-top: 5%; margin-bottom: 5%; margin-right: 20%; margin-left: 20%; font-size: 35px;">
+                <ui:Button text="Restart" name="RestartButton" style="flex-grow: 1; width: 50%;"/>
+                <ui:Button text="Quit" name="QuitButton" style="flex-grow: 1; width: 50%;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
